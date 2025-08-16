@@ -1,0 +1,164 @@
+  <!doctype html>
+ <html>
+   <head> 
+   
+     <title>  Online kutubhona </title>
+	 <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 
+	 
+	 <!-- bootstrap css ulashh -->
+	 
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+	 
+	 <!-- css file ulash -->
+	 <link rel="stylesheet" href="css/style.css"/>
+	 
+   </head>
+   <body>
+   
+   <!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+  <a class="navbar-brend" href="#"> 📚 Online kutubxona </a>
+  
+   <!-- Kichik ekranda menyuni yopib-ochadigan tugma -->
+   
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+   </button>
+			
+	<div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Bosh sahifa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Kitoblar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Biz haqimizda</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>		
+	 
+	 
+	 <!-- HEADER -->
+	 <header class="bg-light text-center p-5">
+	 <h1>Bepul online kutubxonaga hush kelibsiz!<h1>
+	  <p class="lead">Eng sara kitoblar shu yerda</p>
+    </header>
+	
+	
+	 <!--chap menyu  slayd filtr-->
+	<!-- Kategoriyalar tugmasi -->
+<button class="btn btn-primary m-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#kategoriyaSidebar">
+  📚 Kategoriyalar
+</button>
+
+<!-- Offcanvas (chapdan chiqadigan menyu) -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="kategoriyaSidebar">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title">Kategoriyalar</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="list-group">
+      <li class="list-group-item list-group-item-action">Barchasi</li>
+      <li class="list-group-item list-group-item-action">Dramma</li>
+      <li class="list-group-item list-group-item-action">Roman</li>
+      <li class="list-group-item list-group-item-action">She'rlar</li>
+      <li class="list-group-item list-group-item-action">Hikoyalar</li>
+    </ul>
+  </div>
+</div>
+
+	
+	
+	
+	
+	<!-- KITOBLAR BO'LIMI -->
+<section class="container">
+    <div class="row">
+ 
+
+        <div class="col-md-3" data-category="Roman">		
+            <div class="card">
+                <img src="img/OtkanKunlar.jpg" class="card-img-top" alt="Kitob 1">
+                <div class="card-body">
+                    <h5 class="card-title">O'tkan kunlar</h5>
+                    <p class="card-text">Moziyg‘a qaytib ish ko‘rish xayrlik, deydilar. Shunga ko‘ra mavzu’ni moziydan, yaqin o‘tkan kunlardan, tari-ximizning eng kirlik, qora kunlari bo‘lg‘an keyingi «xon zamonlari»dan belguladim.</p>
+                   <a href="pdf/kitob1.pdf" class="btn btn-primary">O‘qish</a>
+                </div>
+            </div>
+			</div>
+			
+			<div class="col-md-3">
+			<div class="card">
+                <img src="img/OtkanKunlar.jpg" class="card-img-top" alt="Kitob 2">
+                <div class="card-body">
+                    <h5 class="card-title">O'tkan kunlar</h5>
+                    <p class="card-text">Moziyg‘a qaytib ish ko‘rish xayrlik, deydilar. Shunga ko‘ra mavzu’ni moziydan, yaqin o‘tkan kunlardan, tari-ximizning eng kirlik, qora kunlari bo‘lg‘an keyingi «xon zamonlari»dan belguladim.</p>
+                    <a href="#" class="btn btn-primary">O'qish</a>
+                </div>
+            </div>
+			</div>
+			
+			<div class="col-md-3">
+			<div class="card">
+                <img src="img/OtkanKunlar.jpg" class="card-img-top" alt="Kitob 3">
+                <div class="card-body">
+                    <h5 class="card-title">O'tkan kunlar</h5>
+                    <p class="card-text">Moziyg‘a qaytib ish ko‘rish xayrlik, deydilar. Shunga ko‘ra mavzu’ni moziydan, yaqin o‘tkan kunlardan, tari-ximizning eng kirlik, qora kunlari bo‘lg‘an keyingi «xon zamonlari»dan belguladim.</p>
+                    <a href="#" class="btn btn-primary">O'qish</a>
+                </div>
+            </div>
+			</div>
+			
+			
+			 <div class="col-md-3">
+			<div class="card">
+                <img src="img/OtkanKunlar.jpg" class="card-img-top" alt="Kitob 4">
+                <div class="card-body">
+                    <h5 class="card-title">O'tkan kunlar</h5>
+                    <p class="card-text">Moziyg‘a qaytib ish ko‘rish xayrlik, deydilar. Shunga ko‘ra mavzu’ni moziydan, yaqin o‘tkan kunlardan, tari-ximizning eng kirlik, qora kunlari bo‘lg‘an keyingi «xon zamonlari»dan belguladim.</p>
+                    <a href="#" class="btn btn-primary">O'qish</a>
+                </div>
+            </div>
+			
+			
+			
+        </div>
+    </div>
+</section>
+
+
+ <!-- pastda keyingisiga otkazish tugmasi-->
+ <nav aria-label="Kitoblar navigatsiyasi">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link">Oldingi</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Keyingi</a>
+    </li>
+  </ul>
+</nav>
+
+ 
+
+
+
+<!-- FOOTER past qismi -->
+<footer class="bg-dark text-white text-center p-3">
+    <p>&copy; 2025 Online kutubxonaga</p> </br>
+	<h2>Web Dasturchi: Avazxon Lutfidinov.</h2>
+	
+</footer>
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

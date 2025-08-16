@@ -1,0 +1,16 @@
+
+
+.list-group-item:hover {
+  background-color: #0d6efd; /* Ko‘k rang */
+  color: white;
+  cursor: pointer; /* Sichqoncha ustida qo‘l belgisi */
+  transition: 0.3s; /* Yumuq o‘tish effekti */
+}
+
+
+.list-group-item:hover {
+  background-color: #0d6efd;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
